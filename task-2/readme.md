@@ -1,35 +1,41 @@
-# Data Classification Using AI
+# AI Project 2 - Data Classification Using AI
 
-## Project Overview
-This project demonstrates how Artificial Intelligence and Machine Learning can be used to classify data into different categories. The model is trained on a dataset, learns patterns from the data, and predicts the correct class for new inputs.
+## Overview
 
-## Features
-- Data preprocessing
-- Feature selection
-- Machine Learning model
-- Data classification
-- Model evaluation
-- Prediction on new data
+This project demonstrates supervised machine learning using the Iris Dataset.
 
-## Technologies Used
+A Decision Tree Classifier is trained to classify flower species based on their measurements.
+
+## Technologies
+
 - Python
 - Pandas
-- NumPy
 - Scikit-learn
-- Matplotlib (if used)
+- Matplotlib
 
-## Project Structure
-- Dataset loading
-- Data preprocessing
-- Model training
-- Prediction
-- Evaluation
+## Dataset
 
-## Learning Outcome
-- Understanding supervised learning
-- Data preprocessing techniques
-- Model training and testing
-- Performance evaluation
+Iris Dataset from Scikit-learn
 
-## Author
-Khushi Sharma
+## Machine Learning Workflow
+
+- Load Dataset
+- Explore Data
+- Split Data
+- Train Model
+- Predict
+- Evaluate Accuracy
+
+## Output
+
+Accuracy Score
+
+Classification Report
+
+Confusion Matrix
+
+## How to Run
+
+```bash
+python classification.py
+```
